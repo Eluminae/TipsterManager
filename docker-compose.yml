@@ -20,7 +20,7 @@ nginx:
     environment:
         - VIRTUAL_HOST=dev.tipster.fr
 php:
-    image: php:7.0-fpm
+    build: docker
     volumes:
         - ./:/app
     links:
