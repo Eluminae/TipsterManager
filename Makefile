@@ -1,7 +1,7 @@
 nginx_name = tipstermanager_nginx_1
 mysql_name = tipstermanager_mysql_1
 php_name = tipstermanager_php_1
-user = FILL_IN
+user = eddie
 
 .PHONY: pac mod composer-update bash bower-install npm-install command dump
 
